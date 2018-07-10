@@ -3,5 +3,5 @@ s=set()
 for x in range(len(l)):
     if l[x] in l[x+1:]:
          s.add(l[x])
-         break
+         break # do not use break here
 print(s)
